@@ -1,1 +1,9 @@
-ReactDOM.render(<h1>damn!</h1>, document.getElementById("root"))
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const element = (
+    <h1>Mise à jour du render!</h1>
+    
+)
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(element)
